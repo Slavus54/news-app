@@ -1,0 +1,79 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	text-align: center;
+}
+
+.nav {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	width: 95%;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+}
+
+.sign {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	width: 250px;
+	margin-left: 15%;
+}
+
+.find {
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+.news {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: inherit;
+}
+
+.break {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: inherit;
+}
+
+.main-reg {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: inherit;
+	margin: 5%;
+}
+
+.reg {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.log {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+}
