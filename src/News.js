@@ -28,7 +28,7 @@ const News = () => {
     const [data, setData] = useRecoilState(date)
 
     useEffect(async () => {
-        const dat = await axios.get('https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/everything?q=apple&from=2020-08-19&to=2020-08-19&sortBy=popularity&apiKey=cfd7bd83f05f499c948b8d40e3aedf01') 
+        const dat = await axios.get('http://newsapi.org/v2/everything?q=apple&from=2020-08-19&to=2020-08-19&sortBy=popularity&apiKey=cfd7bd83f05f499c948b8d40e3aedf01') 
         setValue(dat.data.articles)
     }, [])
 

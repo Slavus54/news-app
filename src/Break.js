@@ -14,7 +14,7 @@ const Break = () => {
     })
     const [value, setValue] = useRecoilState(valu)
     useEffect(async () => {
-        const date = await axios.get('https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=cfd7bd83f05f499c948b8d40e3aedf01') 
+        const date = await axios.get('http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=cfd7bd83f05f499c948b8d40e3aedf01') 
         setValue(date.data.articles)
     }, [])
     console.log(value)
